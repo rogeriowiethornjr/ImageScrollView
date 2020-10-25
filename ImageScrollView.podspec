@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
   s.author       = { 'Rogério Wiethorn' => 'https://github.com/rogeriowiethornjr' }
   s.ios.deployment_target = '10.0'
   s.source_files = 'Sources/*.{swift}'
+  s.dependency 'Kingfisher', '~> 5.0'
   s.requires_arc = true
 end
