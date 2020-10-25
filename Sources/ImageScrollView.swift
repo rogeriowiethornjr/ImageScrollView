@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 @objc public protocol ImageScrollViewDelegate: UIScrollViewDelegate {
     func imageScrollViewDidChangeOrientation(imageScrollView: ImageScrollView)
